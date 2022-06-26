@@ -1,0 +1,336 @@
+/*Navbar*/
+#title .container-fluid .navbar{
+    padding:0;
+    padding-bottom:100px;
+}
+#title .container-fluid{
+    padding-bottom:0;
+   
+}
+.navbar-toggler {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.navbar-toggler span {
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #fff;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.middle-bar {
+    margin-top: 0px;
+}
+
+/* when navigation is clicked */
+
+.navbar-toggler .top-bar {
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
+
+/* State when the navbar is collapsed */
+
+.navbar-toggler.collapsed .top-bar {
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    margin-top: 20px;
+    transform: rotate(0deg);
+}
+
+/* Color of 3 lines */
+
+.navbar-toggler.collapsed .toggler-icon {
+    background: #fff;
+}
+.navbar  .collapse .navbar-nav a.nav-link{
+    color:#fff;
+}
+.navbar .collapse .navbar-nav .nav-link:hover{
+    color:rgb(29, 28, 28);
+}
+/*Navbar*/
+
+@media only screen and (min-width:992px){
+#title{
+    font-family:"Montserrat",sans-serif;
+    background-color: #ff4c68;
+    overflow:hidden;
+    height:600px;
+}
+.container-fluid .title-image{
+    width:50%;
+    transform:rotate(25deg);
+    position: relative;
+    top:-80px;
+    left:100px;
+}
+}
+#title{
+    font-family:"Montserrat",sans-serif;
+    background-color: #ff4c68;
+    overflow:hidden;
+}
+#title .container-fluid .col-sm-6 h1{
+    font-family:"Montserrat",sans-serif;
+    font-weight: 900;
+    line-height:1.5;
+    font-size: 3.5vm;
+    color:#fff;
+}
+#title .container-fluid{
+    padding: 3% 10%;
+}
+#title .container-fluid .row .col-sm-6 .btn-dark,#title .container-fluid .row .col-sm-6 .btn-dark:focus,#title .container-fluid .row .col-sm-6 .btn-dark:active{
+    outline: none;
+    box-shadow: none;
+    border: 0;
+  }
+  #title .container-fluid .row .col-sm-6 .btn-outline-light,#title .container-fluid .row .col-sm-6 .btn-outline-light:focus,#title .container-fluid .row .col-sm-6 .btn-outline-light:active{
+    outline: none;
+    box-shadow: none;
+    border: #fff 1px solid;    
+  }
+  #title .container-fluid .row .col-sm-6 .btn-dark{
+    background-color: rgb(31, 30, 30);
+  }
+  #title .container-fluid .row .col-sm-6 .btn-dark:hover{
+    background-color: black;
+  }
+  #title .container-fluid .navbar .navbar-brand{
+     font-family: "Ubuntu",sans-serif;
+     font-size: 2.5rem;
+     font-weight: bold;
+  }
+  .nav-item{
+    padding: 0 10px;
+  }
+  .nav-link{
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
+/*Download Buttons*/
+
+.download-button{
+    margin: 3% 3% 3%;
+
+}
+
+/*Title Image*/
+.title-image{
+    width: 60%;
+    transform:rotate(25deg);
+    position: relative;
+    bottom:-40px;
+    left:100px;
+}
+/* FEatures */
+.feat-image{
+    width:80px;
+    height: 80px;
+    color: #ef8172;
+}
+.feat-image:hover{
+    color:#ff4c68;
+}
+.col-sm-4{
+    text-align: center;
+    padding: 0 50px;
+}
+#features .container-fluid{
+    padding: 100px 20px;
+}
+#features{
+    background-color: bisque;
+    font-family: "Montserrat",sans-serif;
+}
+#features p{
+    font-size: 1.2rem;
+}
+@media only screen and (max-width:992px)
+{
+    .col-sm-4{
+        text-align: center;
+        padding: 10px 50px;
+    }
+}
+
+/* Testimonials */
+#testimonials .container-fluid{
+    background-color: #ff4c68;
+    padding: 50px;
+    font-family:"Montserrat",sans-serif;
+    font-weight: 400;
+}
+#testmonials .container-fluid .row{
+    margin-bottom: 50px;
+} 
+#testimonials .container-fluid .col-sm-3{
+    text-align: center;
+}
+#testimonials .container-fluid .col-sm-9{
+    text-align: justify;
+    padding-top:90px;
+    padding-left: 40px;
+}
+#testimonials .container-fluid .testimonial-image{
+    border-radius: 50%;
+}
+@media only screen and (max-width:992px)
+{ 
+    #testimonials .container-fluid .col-sm-3{
+        text-align: center;
+    }
+    #testimonials .container-fluid .col-sm-9{
+        text-align: left;
+        padding-top:5px;
+        padding-bottom: 40px;
+    }
+    #testimonials .container-fluid .testimonial-image{
+       margin: 5px auto;
+    }
+}
+/* Press */
+.press-img{
+    display: block;
+    width: 80%;
+    margin:auto auto;
+    margin-top: 50px;
+}
+#press .container-fluid{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: bisque;
+}
+
+@media only screen and (max-width:992px)
+{
+    .col-lg-3{
+        padding: 10px 0;
+    }
+    .press-img{
+        width: 50%;
+    }
+}
+/* Pricing */
+#pricing .price{
+    color:#fff;
+}
+#pricing h3{
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 600;
+}
+#pricing p{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+}
+
+
+#pricing .container-fluid{
+    background-color: #ff4c68;
+    padding-bottom: 40px;
+}
+
+#pricing .heading{
+    text-align: center;
+    padding: 40px 0;
+}
+#pricing .heading h2{
+    font-weight: 900;
+    font-size: 2rem;
+}
+#pricing .col-lg-4{
+    text-align:center;
+}
+#pricing .signup-button{
+    color:black;
+    margin-top:3%;
+}
+
+
+
+@media only screen and (max-width:992px)
+{   #pricing .heading{
+    padding: 40px 0 0 0;
+}
+    #pricing .col-lg-4{
+        padding-top:50px;
+    }
+}
+
+/* Call to action */
+#cta .container-fluid{
+    padding: 60px;
+    background-color: bisque;
+}
+#cta .container-fluid .buttons{
+    padding-left:100px;
+}
+#cta .container-fluid {
+    font-family: "Montserrat",sans-serif;
+}
+#cta h3{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+@media only screen and (max-width:992px)
+{
+    #cta .container-fluid .buttons{
+        padding:0;
+    }
+    #cta .container-fluid .col-md-6{
+        padding: 40px 0;
+    }
+}
+
+/*footer*/
+#footer{
+    background-color: bisque;
+    padding-bottom: 16px;
+}
+#footer p{
+    margin:0;
+    text-align: center;
+    font-family: "Ubuntu",sans-serif;
+}
